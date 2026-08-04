@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- ================= LOADING SCREEN ================= -->
+
+<div id="loader">
+
+    <h1 class="loading-text">
+        Preparing Your Surprise...
+    </h1>
+
+</div>
+
+<!-- ================= FLOATING HEARTS ================= -->
+
+<div id="hearts-container"></div>
+
+<!-- ================= MAIN CONTENT ================= -->
+
+<div class="container">
+
+    <!-- Typewriter -->
+
+    <h1 id="typing-text"></h1>
+
+    <!-- Countdown -->
+
+    <div id="countdown">
+
+        <span id="count">3</span>
+
+    </div>
+
+    <!-- Birthday -->
+
+    <div id="birthdaySection">
+
+        <h1 class="title">
+            🎂 Happy Birthday 🎂
+        </h1>
+
+        <h2>
+            My Special One ❤️
+        </h2>
+
+        <!-- Gift -->
+
+        <div class="gift-box" onclick="openGift()">
+
+            🎁
+
+            <p>Click Me</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= SURPRISE ================= -->
+
+<div id="surprise">
+
+    <!-- Photo Slider -->
+
+   <div class="slider">
+
+    <div class="slides">
+
+        <div class="slide">
+            <img src="images/photo1.jpeg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="images/photo2.jpeg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="images/photo3.jpeg" alt="">
+        </div>
+
+    </div>
+
+</div>
+    <!-- Envelope -->
+
+    <div class="envelope-area">
+
+        <div class="envelope" onclick="openLetter()">
+
+            📩
+
+            <h2>Open My Letter ❤️</h2>
+
+        </div>
+
+    </div>
+
+    <!-- Letter -->
+
+    <div class="birthday-message" id="letter">
+
+        <h2>💖 A Letter To My Special One 💖</h2>
+
+        <p>
+            Happy Birthday to the most amazing person in my life! ❤️
+        </p>
+
+        <p>
+            You are not just my good friend—you are my family,
+            my biggest supporter,
+            and one of the greatest blessings I have ever received.
+        </p>
+
+        <p>
+            Thank you for always believing in me,
+            making me laugh,
+            standing beside me
+            during difficult times,
+            and creating unforgettable memories together.
+        </p>
+
+        <p>
+            I hope this birthday brings you endless happiness,
+            good health,
+            success,
+            peace,
+            and everything your heart desires.
+        </p>
+
+        <p>
+            No matter where life takes us,
+            our relationship will always remain strong.
+        </p>
+
+        <p>
+
+            Happy Birthday Once Again ❤️
+
+        </p>
+
+        <h2>
+
+            With Lots of Love 💖
+
+        </h2>
+
+       <div class="signature">
+    <p>Yours,</p>
+    <h3>Sanika 🌸</h3>
+</div>
+
+    </div>
+
+    <!-- Timeline -->
+
+    <div class="timeline">
+
+        <div class="step">
+
+            ❤️
+
+            <p>We Met</p>
+
+        </div>
+
+        <div class="step">
+
+            📸
+
+            <p>Beautiful Memories</p>
+
+        </div>
+
+        <div class="step">
+
+            😊
+
+            <p>Many Smiles</p>
+
+        </div>
+
+        <div class="step">
+
+            🎂
+
+            <p>Today</p>
+
+        </div>
+
+        <div class="step">
+
+            ♾️
+
+            <p>Forever</p>
+
+        </div>
+
+    </div>
+
+    <!-- Final Message -->
+
+    <section class="ending">
+
+        <h1>
+
+            ❤️
+
+        </h1>
+
+        <h2>
+
+            I Hope You Liked It...
+
+        </h2>
+
+        <p>
+
+            May your life always be filled with happiness,
+            success,
+            love,
+            and beautiful memories.
+
+        </p>
+
+        <h3>
+
+            Happy Birthday Once Again 🎂
+
+        </h3>
+
+        <h2>
+
+            With Lots of Love ❤️
+
+        </h2>
+
+        <h3>Yours,Sanika 🌸</h3>
+
+    </section>
+
+</div>
+
+<!-- Background Music -->
+
+<audio id="music" loop>
+
+    <source src="happybirthday.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- Canvas For Fireworks -->
+
+<canvas id="fireworks"></canvas>
+
+<script src="script.js"></script>
+
+</body>
+<footer>
+    Made with ❤️ by Sanika
+</footer>
+</html>
